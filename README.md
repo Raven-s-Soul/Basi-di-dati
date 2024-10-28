@@ -4,7 +4,7 @@
 Notazioni della repository
 -->
 <details>
-<summary>Notazioni: </summary>
+<summary>Notazioni</summary>
 <p align="center" >
   
 | Operatore | Definzione |
@@ -56,11 +56,11 @@ Operazioni
 <details>
 <summary>I 3 passi</summary>
   
-1) Prodotto cartesiano
-  
-1) Selezione - select
-   
-1) Proiezione - @
+>1) Prodotto cartesiano
+>  
+>1) Selezione - select
+>   
+>1) Proiezione - @
 </details>
 
 <!--
@@ -87,4 +87,7 @@ figlio 	  character(20) not null primary key references persone(nome)
 </details>
 
 <!-- TODO
+1.2 Algebra Relazionale 
 Espressioni nella targhet list
+
+Continuare 2.2 in poi
