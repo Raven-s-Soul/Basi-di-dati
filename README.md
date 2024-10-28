@@ -40,7 +40,7 @@ Operazioni
 | `FROM` | Operatore per la selezione della tabella |
 | `WHERE` | Operatore per aggiunta di condizione |
 | `AND` | Congiunzione di condizioni <br> <details> <summary>Example: </summary><br> where A.@ = B.@ `AND` A.@ > 4 </details> |
-| `UNION` | Opeatore di [Unione](https://www.simatematica.it/wp-content/uploads/2022/12/image-15.png) insiemistico <br>Approccio insiemistico <br> <details> <summary>Example: </summary><br> select * from A `UNION` select * from B </details> |
+| `UNION` | Opeatore di [unione](https://www.simatematica.it/wp-content/uploads/2022/12/image-15.png) insiemistico <br>Approccio insiemistico <br> <details> <summary>Example: </summary><br> select * from A `UNION` select * from B </details> |
 | `UNION ALL` | TODO |
 | `EXCEPT` | Opeatore di [differenza](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4iwMT5roVJvi8-T0UOeAFv9S9ok2POEFW1Q&s) insiemistico <br> <details> <summary>Example: </summary><br> select * from A `EXCEPT` select * from B </details> |
 | `INTERSECT` | Opeatore di [intersezione](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ79kJndGh-1_wvL7iIoLOmBWqhosV_stQiUw&s) insiemistico <br> <details> <summary>Example: </summary><br> select * from A `EXCEPT` select * from B </details> |
