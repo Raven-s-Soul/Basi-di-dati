@@ -31,11 +31,12 @@
 >[!NOTE]
 >$`PROJ _{Nome, Cognome} (SEL _{eta > 50} (Persone))`$
 
->### Cardinalità delle proiezioni
->se `X` è superchiave di R , allora  $`PROJ _X (R)`$ contiene esattamente R ennuple.
-
 >### Select e Null
 >$`SEL _{@ > X \quad OR \quad @ \leq X} (Opearando) \neq Operando`$ - `IS NULL` oppure `IS NOT NULL`
+
+>[!CAUTION]
+>## Cardinalità delle proiezioni
+>se `X` è superchiave di R , allora  $`PROJ _X (R)`$ contiene esattamente R ennuple.
 
 >[!CAUTION]
 >## Cardinalità del join ($`R_1 \quad e \quad R_2`$)
@@ -62,3 +63,12 @@
 >Join naturale (no null) <br>
 >***Theta-join*** $`SEL_{condizone}(R_1 JOIN R_2)`$ <br>
 >***Equi-join*** quando l'operatore di confronto è sempre uguaglianza. <- Importante
+
+>[!TIP]
+>## Aggregazione
+> - Conteggio
+> - Minimo
+> - Massimo
+> - Media
+> - Totale
+>
