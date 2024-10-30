@@ -10,7 +10,7 @@
 >    - Selezione
 >    - Proiezione
 
->- Aggregazione
+>- ~~Aggregazione~~
 >- Join
 
 ***
