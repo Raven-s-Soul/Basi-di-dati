@@ -71,9 +71,19 @@ SQL
 | `ORDER BY @` | Operatore di ordinamento alfabetico |
 | `like` | Operatore di ricerca stringhe <br> <details> <summary>Example: </summary><br> where nome `like` 'A_d%' <br><br>Spiegazione: inizia per A e d come 3rd carattere  </details> |
 | `IS NULL` | @ = NULL/null |
-
+| `COUNT(@)` | Conta le righe |
+| `SUM(@)` | Somma delle righe |
+| `AVG(@)` | Media delle righe |
+| `MAX(@)` | Massimo delle righe |
+| `MIN(@)` | Minimo delle righe |
+| `<>` | Diverso != |
+| `CREATE VIEW <.titolo.> AS` | Creare una view/Gruppo  |
+| `GROUP BY @` | Riunisce/ Raggruppa per @ |
+| `HAVING AVG(@) > X` | Condizioni sui gruppi  |
 
 ***
+
+<!-- p100 to check -->
 
 <details>
 <summary>I 3 passi</summary>
@@ -84,3 +94,14 @@ SQL
 >   
 >1) Proiezione - @
 </details>
+
+***
+
+## Interrogazioni nidificate
+
+```SQL
+Select *
+From X -- any letter can be use as macro of X
+Where @ = (select max(@) from Y) -- Uguale
+Where @ >= (select avg(@) from Y) -- Maggiore uguale 
+```
