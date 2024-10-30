@@ -7,7 +7,7 @@
 >
 >> - Procedurali (come)
 >>    - Il risultato
->>    - [Algebra relazionale](../Algebra-Relazionale.md)
+>>    - [Algebra relazionale](../../Algebra-Relazionale.md)
 >
 >- SQL (Structured Query Language)
 
