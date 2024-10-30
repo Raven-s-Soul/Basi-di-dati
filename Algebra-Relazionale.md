@@ -26,6 +26,7 @@
 | Selezione | SEL | $`\sigma`$ - *"SIGMA"*  | $`SEL _{condizone} (Operando)`$ |
 | Proiezione | PROJ | $`\pi`$ - *"PI"*  | $`PROJ _{lista\quad attributi} (Operando)`$ |
 | Join | JOIN | $`\bowtie `$ - *"???"* | $`PROJ _{lista \quad attributi} (Operando \quad JOIN _{@1 = @2} \quad SEL \quad _{@3>X} \quad (Operando))`$ |
+| Vista | @ = <...> | $`=`$| $`X = PROJ _{lista \quad attributi} (Operando \quad JOIN \quad Operando)`$ |
 
 >[!NOTE]
 >$`PROJ _{Nome, Cognome} (SEL _{eta > 50} (Persone))`$
