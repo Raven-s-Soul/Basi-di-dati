@@ -22,6 +22,6 @@
 
 | Operazione | Standard | Alternative | Esempio |
 | :--: | :-- |  :-- | :-- |
-| Ridenominazione | REN | "RHO" $`\rho`$ | REN(genitore<-padre) (Paternità) |
-| Selezione | SEL | "SIGMA" $`\sigma`$ | SEL condizone (Operando) |
-| Proiezione | PROJ | "PI" $`\pi`$ | PROJ lista_attributi (Operando) |
+| Ridenominazione | REN | $`\rho`$ - *"RHO"*  | REN(genitore<-padre) (Paternità) |
+| Selezione | SEL | $`\sigma`$ - *"SIGMA"*  | SEL condizone (Operando) |
+| Proiezione | PROJ | $`\pi`$ - *"PI"*  | PROJ lista_attributi (Operando) |
