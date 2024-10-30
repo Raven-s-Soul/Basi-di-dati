@@ -1,37 +1,56 @@
 # Data Manipulation Language
 
+<!-- Teory -->
+> [!NOTE]
+>> - Dichiarativi (che cosa)
+>>    - Le proprietà del risultato
+>
+>> - Procedurali (come)
+>>    - Il risultato
+>>    - [Algebra relazionale](../Algebra-Relazionale.md)
+>
+>- SQL (Structured Query Language)
+
+***
+
+>[!IMPORTANT]
+>## SQL
+>
+> <!-- Operazioni -->
+><details>
+><summary>Operazioni</summary><br>
+>
+>> - Interrogazione
+>>   - Select
+>
+>> - modifica
+>>   - Insert
+>>   - Delete
+>>   - Update
+></details>
+
 <!--
 Notazioni della repository
 -->
-<details>
-<summary>Notazioni</summary>
-<p align="center" >
-  
-| Operatore | Definzione |
-| :--: | :-- |
-| `@` | Argomento/Attributo |
+>[!TIP]
+><details>
+><summary>Notazioni</summary>
+><p align="center" >
+>  
+>| Operatore | Definzione |
+>| :--: | :-- |
+>| `@` | Argomento/Attributo |
 <!--
 | A | B |
 | `###` | ### <br> <details> <summary>Example: </summary><br> ### </details> |
 -->
-</p>
-</details>
+></p>
+></details>
+>
 
 <!--
-Operazioni
+SQL
 -->
-<details>
-<summary>Operazioni</summary>
-
-> - Interrogazione
->   - Select
-
-> - modifica
->   - Insert
->   - Delete
->   - Update
-</details>
-
 
 | Operatore | Definzione |
 | :--: | :-- |
@@ -52,6 +71,9 @@ Operazioni
 | `ORDER BY @` | Operatore di ordinamento alfabetico |
 | `like` | Operatore di ricerca stringhe <br> <details> <summary>Example: </summary><br> where nome `like` 'A_d%' <br><br>Spiegazione: inizia per A e d come 3rd carattere  </details> |
 | `IS NULL` | @ = NULL/null |
+
+
+***
 
 <details>
 <summary>I 3 passi</summary>
