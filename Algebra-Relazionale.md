@@ -22,6 +22,14 @@
 
 | Operazione | Standard | Alternative | Esempio |
 | :--: | :-- |  :-- | :-- |
-| Ridenominazione | REN | $`\rho`$ - *"RHO"*  | REN(genitore<-padre) (Paternità) |
-| Selezione | SEL | $`\sigma`$ - *"SIGMA"*  | SEL condizone (Operando) |
-| Proiezione | PROJ | $`\pi`$ - *"PI"*  | PROJ lista_attributi (Operando) |
+| Ridenominazione | REN | $`\rho`$ - *"RHO"*  | $`REN _{genitore <- padre} (Paternità)`$ |
+| Selezione | SEL | $`\sigma`$ - *"SIGMA"*  | $`SEL _{condizone} (Operando)`$ |
+| Proiezione | PROJ | $`\pi`$ - *"PI"*  | $`PROJ _{lista_attributi} (Operando)`$ |
+
+>[!NOTE]
+>$`PROJ _{Nome, Cognome} (SEL _{eta > 50} (Persone))`$
+
+### Cardinalità delle proiezioni
+se `X` è superchiave di R , allora  $`PROJ _X (R)`$ contiene esattamente R ennuple.
+### Select e Null
+$`SEL _{@ > X \quad OR \quad @ \leq X} (Opearando) \neq Operando`$ - `IS NULL` oppure `IS NOT NULL`
