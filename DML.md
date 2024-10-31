@@ -80,6 +80,7 @@ SQL
 | `CREATE VIEW <.titolo.> AS` | Creare una view/Gruppo  |
 | `GROUP BY @` | Riunisce/ Raggruppa per @ |
 | `HAVING AVG(@) > X` | Condizioni sui gruppi  |
+| `ANY` | is in ??  |
 
 ***
 
@@ -101,7 +102,10 @@ SQL
 
 ```SQL
 Select *
-From X -- any letter can be use as macro of X
+From (...) as X -- any letter can be use as macro of X
 Where @ = (select max(@) from Y) -- Uguale
 Where @ >= (select avg(@) from Y) -- Maggiore uguale 
 ```
+
+### Update / Insert / Delete
+### Alter table
