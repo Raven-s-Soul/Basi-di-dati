@@ -3,6 +3,7 @@
 - [DDL-Data Defintion Language](./DDL.md)
 - [DML-Data Manipulation Language](./DML.md)
   - [Algebra relazionale](./Algebra-Relazionale.md)
+- [EntityRelationship](./ER(EntityRelationship).md) 
 
 <details>
 <summary><h4>Esonero 1 - (DML) Query</h2></summary>
