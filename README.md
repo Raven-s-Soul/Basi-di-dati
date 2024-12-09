@@ -17,3 +17,13 @@
 ![Foto2](./assets/photo_2024-11-20_12-17-10.jpg)
 </details>
 </details>
+
+
+<details>
+<summary><h4>Esonero 2 - (ER) Progettazione logica</h2></summary>
+<details>
+<summary> Foto Soluzione (C)</summary>
+
+![Foto](./assets/photo_2024-12-09.jpg)
+</details>
+</details>
