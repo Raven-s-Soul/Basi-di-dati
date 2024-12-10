@@ -12,9 +12,9 @@
 ## Ciclo di vita
 ```mermaid
 flowchart LR
-    A(Studio di fattibilità) --> B(Raccolta e analisi dei requisiti)
+    A(Studio di fattibilità) --> B(Raccolta e analisi dei requisiti - Concettuale)
     B --> A
-    B --> C(Progettazione)
+    B --> C(Progettazione - logica)
     C --> B
     C --> D(Realizzazione)
     D --> C
