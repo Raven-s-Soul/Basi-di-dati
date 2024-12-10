@@ -9,12 +9,12 @@
 > Una connessione che permette la concatenazione fra 2 entità.
 -->
 
-## Ciclo di vita
+# Ciclo di vita
 ```mermaid
 flowchart LR
     A(Studio di fattibilità) --> B(Raccolta e analisi dei requisiti - Concettuale)
     B --> A
-    B --> C(Progettazione - logica)
+    B --> C(Progettazione - Logica)
     C --> B
     C --> D(Realizzazione)
     D --> C
@@ -23,7 +23,43 @@ flowchart LR
     E --> F(Funzionamento)
     F --> E
 ```
-A noi interessa nel corso **Analisi** e **Progettazione**
+A noi interessa nel corso **Analisi/Concettuale** e **Progettazione/Logica**
+
+***
+>[!NOTE]
+>## Progettazione Concettuale
+>Leggere il testo molto attentamente per capire le richieste.
+>
+***
+
+>[!NOTE]
+>## Progettazione Logica
+>Ottimizzare lo schema concettuale (spazio e tempo).
+>- Analisi delle ridondanze
+>    - semplificazione delle interrogazioni
+>        - Attributo derivabile da altra entità 
+>    - appesantimento degli aggiornamenti
+>    - occupamento di spazio
+> ```math
+>     \text {Sol Generale} = \begin{equation}
+>     C_1 * f_1 + C_2 * f_2 + \dots
+>     \end{equation}
+> ```
+> ```math
+> 
+> \begin{array}{c}
+> R = \text {Read} = x = 1 \\
+> W = \text {Write} = 2x = 2 \quad
+> \end{array}
+>\begin{align}
+>\text {No Ridondanza} &= C_a * f_1 + C_b * f_2 + \dots \\
+>\text {Example Ridondanza} &= {R} * f_1 + (R + 2W) * f_2 + \dots
+>\end{align}
+>```
+>- Eliminazione delle generalizzazioni
+>- Partizionamento/accorpamento di entità e relationship
+>- Scelta degli identificatori primari
+***
 
 ## Progettazione di basi di dati
 >- Schema concettuale
@@ -83,7 +119,7 @@ flowchart BT
 Vedere tipi di esercizzi:
 - [x]  Creare un ER
 - [x] Modificare l'ER del esercizio precedente
-- [ ] Progettazione logica
-- [ ] Ridondanza
+- [x] Progettazione logica
+- [x] Ridondanza
 - [x] Tabella Si/No basata su domande su dei ER
 - [x] Tabella stile excell dove fai esempi in base a modelli leggermente differenti di ER
