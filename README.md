@@ -28,3 +28,10 @@
 ![Foto](./assets/photo_2024-12-09.jpg)
 </details>
 </details>
+
+<details>
+<summary><h4>Esonero 3 - Normalizzazione</h2></summary>
+  Niente foto sta volta.
+
+  Ma è un argomento importante per i DB.
+</details>
